@@ -1,0 +1,29 @@
+{
+  "name": "npm-jira",
+  "version": "1.0.1",
+  "description": "This is a npm module where you specify the JIRA issue id and it opens up the respective JIRA page on your default web browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abinpal/npm-jira.git"
+  },
+  "author": "Abin Pal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abinpal/npm-jira/issues"
+  },
+  "homepage": "https://github.com/abinpal/npm-jira#readme",
+  "dependencies": {
+    "opn": "^4.0.1"
+  },
+  "bin": {
+    "npm-jira": "index.js"
+  },
+  "keywords": [
+    "jira",
+    "browser"
+  ]
+}
