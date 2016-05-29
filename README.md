@@ -1,5 +1,8 @@
 # npm-jira
-Just specify the Issue Id and it opens up the respective JIRA page on your default web browser. (Only for Sapient employees)
+Just specify the Issue Id and it opens up the respective JIRA page on your default web browser.
+If you run only the command, it opens the "My Open Issues" Page of JIRA.
+
+(ONLY FOR SAPIENT EMPLOYEES)
 
 ## Install
 
@@ -7,7 +10,13 @@ Just specify the Issue Id and it opens up the respective JIRA page on your defau
 $ npm install npm-jira -g
 ```
 
-## Usage
+## Usage 1
+
+```
+$ npm-jira
+```
+
+## Usage 2
 
 ```
 $ npm-jira <issueID>

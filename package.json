@@ -1,6 +1,6 @@
 {
   "name": "npm-jira",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a npm module where you specify the JIRA issue id and it opens up the respective JIRA page on your default web browser",
   "main": "index.js",
   "scripts": {

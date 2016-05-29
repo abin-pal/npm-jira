@@ -8,11 +8,15 @@ function openUrlOnBrowser(jiraID){
 	opn('https://tools.sapient.com/jira/browse/'+jiraID, {wait: false});
 }
 
+function openIssuesUrl(){
+	opn('https://tools.sapient.com/jira/issues', {wait: false});
+}
+
 var compute = function() {
   if(jiraID!=null)
     openUrlOnBrowser(jiraID);
   else
-    console.error('Please pass the JIRA ID as argument');
+    openIssuesUrl();
 };
 
 compute();
